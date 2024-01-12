@@ -11,6 +11,7 @@
 		A3C44F862B5113C4004F18DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F852B5113C4004F18DF /* ContentView.swift */; };
 		A3C44F882B5113C7004F18DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C44F872B5113C7004F18DF /* Assets.xcassets */; };
 		A3C44F8B2B5113C7004F18DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C44F8A2B5113C7004F18DF /* Preview Assets.xcassets */; };
+		A3C44F922B5113E4004F18DF /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F912B5113E4004F18DF /* ActivityCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A3C44F852B5113C4004F18DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3C44F872B5113C7004F18DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3C44F8A2B5113C7004F18DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3C44F912B5113E4004F18DF /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A3C44F832B5113C4004F18DF /* HealthTrackingApp.swift */,
 				A3C44F852B5113C4004F18DF /* ContentView.swift */,
+				A3C44F912B5113E4004F18DF /* ActivityCardView.swift */,
 				A3C44F872B5113C7004F18DF /* Assets.xcassets */,
 				A3C44F892B5113C7004F18DF /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C44F922B5113E4004F18DF /* ActivityCardView.swift in Sources */,
 				A3C44F862B5113C4004F18DF /* ContentView.swift in Sources */,
 				A3C44F842B5113C4004F18DF /* HealthTrackingApp.swift in Sources */,
 			);
