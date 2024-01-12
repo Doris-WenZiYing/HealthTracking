@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct HealthTrackingApp: App {
+
+    @StateObject var manager = HealthManager()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HealthTabView()
+                .environmentObject(manager)
         }
     }
 }

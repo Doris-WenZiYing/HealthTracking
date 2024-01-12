@@ -12,6 +12,10 @@
 		A3C44F882B5113C7004F18DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C44F872B5113C7004F18DF /* Assets.xcassets */; };
 		A3C44F8B2B5113C7004F18DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C44F8A2B5113C7004F18DF /* Preview Assets.xcassets */; };
 		A3C44F922B5113E4004F18DF /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F912B5113E4004F18DF /* ActivityCardView.swift */; };
+		A3C44F942B5117BC004F18DF /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F932B5117BC004F18DF /* HealthManager.swift */; };
+		A3C44F962B5119D8004F18DF /* HealthTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F952B5119D8004F18DF /* HealthTabView.swift */; };
+		A3C44F982B511A5F004F18DF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F972B511A5F004F18DF /* RootView.swift */; };
+		A3C44F9E2B511D53004F18DF /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F9D2B511D53004F18DF /* ActivityModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,11 @@
 		A3C44F872B5113C7004F18DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3C44F8A2B5113C7004F18DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3C44F912B5113E4004F18DF /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
+		A3C44F932B5117BC004F18DF /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		A3C44F952B5119D8004F18DF /* HealthTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTabView.swift; sourceTree = "<group>"; };
+		A3C44F972B511A5F004F18DF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A3C44F992B511BD8004F18DF /* HealthTracking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthTracking.entitlements; sourceTree = "<group>"; };
+		A3C44F9D2B511D53004F18DF /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +62,11 @@
 		A3C44F822B5113C4004F18DF /* HealthTracking */ = {
 			isa = PBXGroup;
 			children = (
+				A3C44F992B511BD8004F18DF /* HealthTracking.entitlements */,
 				A3C44F832B5113C4004F18DF /* HealthTrackingApp.swift */,
-				A3C44F852B5113C4004F18DF /* ContentView.swift */,
-				A3C44F912B5113E4004F18DF /* ActivityCardView.swift */,
+				A3C44F9C2B511D46004F18DF /* Model */,
+				A3C44F9B2B511D3A004F18DF /* ViewModel */,
+				A3C44F9A2B511D29004F18DF /* View */,
 				A3C44F872B5113C7004F18DF /* Assets.xcassets */,
 				A3C44F892B5113C7004F18DF /* Preview Content */,
 			);
@@ -68,6 +79,33 @@
 				A3C44F8A2B5113C7004F18DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3C44F9A2B511D29004F18DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3C44F852B5113C4004F18DF /* ContentView.swift */,
+				A3C44F972B511A5F004F18DF /* RootView.swift */,
+				A3C44F952B5119D8004F18DF /* HealthTabView.swift */,
+				A3C44F912B5113E4004F18DF /* ActivityCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3C44F9B2B511D3A004F18DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3C44F932B5117BC004F18DF /* HealthManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3C44F9C2B511D46004F18DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3C44F9D2B511D53004F18DF /* ActivityModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +180,11 @@
 			files = (
 				A3C44F922B5113E4004F18DF /* ActivityCardView.swift in Sources */,
 				A3C44F862B5113C4004F18DF /* ContentView.swift in Sources */,
+				A3C44F9E2B511D53004F18DF /* ActivityModel.swift in Sources */,
+				A3C44F982B511A5F004F18DF /* RootView.swift in Sources */,
 				A3C44F842B5113C4004F18DF /* HealthTrackingApp.swift in Sources */,
+				A3C44F962B5119D8004F18DF /* HealthTabView.swift in Sources */,
+				A3C44F942B5117BC004F18DF /* HealthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,12 +315,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthTracking/HealthTracking.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthTracking/Preview Content\"";
 				DEVELOPMENT_TEAM = NU35GM8TLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To read the health data and show it in the application";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To update the health data and show it in the application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,12 +347,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthTracking/HealthTracking.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthTracking/Preview Content\"";
 				DEVELOPMENT_TEAM = NU35GM8TLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To read the health data and show it in the application";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To update the health data and show it in the application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
