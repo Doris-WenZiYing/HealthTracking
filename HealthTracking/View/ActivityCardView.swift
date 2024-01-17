@@ -30,11 +30,14 @@ struct ActivityCardView: View {
                     Spacer()
 
                     Image(systemName: activity.image)
-                        .foregroundStyle(.green)
+                        .foregroundStyle(activity.tintColor)
                 }
 
                 Text(activity.amount)
                     .font(.system(size: 24))
+                    .minimumScaleFactor(0.6)
+                    .bold()
+                    .padding(.bottom, 10)
             }
             .padding()
         }
@@ -42,5 +45,5 @@ struct ActivityCardView: View {
 }
 
 #Preview {
-    ActivityCardView(activity: ActivityModel( id: 0, title: "Daily Steps", subTitle: "Goal: 10,000", image: "figure.walk", amount: "6,234"))
+    ActivityCardView(activity: ActivityModel( id: 0, title: "Daily Steps", subTitle: "Goal: 10,000", image: "figure.walk", tintColor: .green, amount: "6,234"))
 }
