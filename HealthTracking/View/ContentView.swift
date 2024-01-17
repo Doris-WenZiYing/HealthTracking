@@ -15,11 +15,13 @@ struct ContentView: View {
 
             Text("Welcome")
                 .font(.largeTitle)
+                .fontWeight(.bold)
                 .foregroundStyle(.primary)
                 .padding()
 
             LazyVGrid(columns: Array(repeating: GridItem(spacing: 20), count: 2)) {
                 ForEach(manager.mockActivities.sorted(by: { $0.value.id < $1.value.id }), id: \.key) { item in
+//                ForEach(manager.activities.sorted(by: { $0.value.id < $1.value.id }), id: \.key) { item in
                     ActivityCardView(activity: item.value)
                 }
             }

@@ -16,6 +16,8 @@
 		A3C44F962B5119D8004F18DF /* HealthTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F952B5119D8004F18DF /* HealthTabView.swift */; };
 		A3C44F982B511A5F004F18DF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F972B511A5F004F18DF /* RootView.swift */; };
 		A3C44F9E2B511D53004F18DF /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F9D2B511D53004F18DF /* ActivityModel.swift */; };
+		A3DF40AC2B578AFA00B505D6 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF40AB2B578AFA00B505D6 /* ChartsView.swift */; };
+		A3DF40AE2B578BBD00B505D6 /* ChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF40AD2B578BBD00B505D6 /* ChartDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A3C44F972B511A5F004F18DF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		A3C44F992B511BD8004F18DF /* HealthTracking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthTracking.entitlements; sourceTree = "<group>"; };
 		A3C44F9D2B511D53004F18DF /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		A3DF40AB2B578AFA00B505D6 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		A3DF40AD2B578BBD00B505D6 /* ChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				A3C44F972B511A5F004F18DF /* RootView.swift */,
 				A3C44F952B5119D8004F18DF /* HealthTabView.swift */,
 				A3C44F912B5113E4004F18DF /* ActivityCardView.swift */,
+				A3DF40AB2B578AFA00B505D6 /* ChartsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A3C44F9D2B511D53004F18DF /* ActivityModel.swift */,
+				A3DF40AD2B578BBD00B505D6 /* ChartDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,7 +187,9 @@
 				A3C44F922B5113E4004F18DF /* ActivityCardView.swift in Sources */,
 				A3C44F862B5113C4004F18DF /* ContentView.swift in Sources */,
 				A3C44F9E2B511D53004F18DF /* ActivityModel.swift in Sources */,
+				A3DF40AC2B578AFA00B505D6 /* ChartsView.swift in Sources */,
 				A3C44F982B511A5F004F18DF /* RootView.swift in Sources */,
+				A3DF40AE2B578BBD00B505D6 /* ChartDataModel.swift in Sources */,
 				A3C44F842B5113C4004F18DF /* HealthTrackingApp.swift in Sources */,
 				A3C44F962B5119D8004F18DF /* HealthTabView.swift in Sources */,
 				A3C44F942B5117BC004F18DF /* HealthManager.swift in Sources */,
