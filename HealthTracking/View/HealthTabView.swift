@@ -11,6 +11,7 @@ struct HealthTabView: View {
 
     @State var selectedTab = "Home"
     @EnvironmentObject var manager: HealthManager
+    var viewModel: WorkoutViewModel
 
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -18,18 +19,28 @@ struct HealthTabView: View {
                 .tag("Content")
                 .tabItem {
                     Image(systemName: "house")
+                    Text("Home")
                 }
                 .environmentObject(manager)
 
-            RootView()
-                .tag("Root")
+            ChartsView()
+                .tag("Charts")
                 .tabItem {
-                    Image(systemName: "person")
+                    Image(systemName: "chart.line.uptrend.xyaxis")
+                    Text("Charts")
+                }
+//            RouteTrackingView(viewModel: viewModel)
+            RouteTrackingView(locationManager: LocationManager())
+                .tag("Routes")
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("Routes")
                 }
         }
     }
 }
 
 #Preview {
-    HealthTabView()
+    HealthTabView(viewModel: WorkoutViewModel())
+        .environmentObject(HealthManager())
 }

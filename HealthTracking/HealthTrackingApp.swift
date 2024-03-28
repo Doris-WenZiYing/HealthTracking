@@ -11,10 +11,11 @@ import SwiftUI
 struct HealthTrackingApp: App {
 
     @StateObject var manager = HealthManager()
+    @StateObject var workoutViewModel = WorkoutViewModel()
 
     var body: some Scene {
         WindowGroup {
-            HealthTabView()
+            HealthTabView(viewModel: workoutViewModel)
                 .environmentObject(manager)
         }
     }

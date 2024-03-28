@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31B025D2BB5BB05005C1669 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B025C2BB5BB05005C1669 /* WorkoutModel.swift */; };
+		A31B025F2BB5BB2A005C1669 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B025E2BB5BB2A005C1669 /* WorkoutViewModel.swift */; };
+		A31B02612BB5CFE1005C1669 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B02602BB5CFE1005C1669 /* MapView.swift */; };
+		A31B02632BB5D009005C1669 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B02622BB5D009005C1669 /* LocationManager.swift */; };
+		A3284E4A2B86E5E400A679AC /* RouteTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3284E492B86E5E400A679AC /* RouteTrackingView.swift */; };
+		A344C2812B889BB000AC6FF6 /* RouteHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344C2802B889BB000AC6FF6 /* RouteHistoryView.swift */; };
+		A34A8B992B5A5F7600CDC5D3 /* TrackMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A8B982B5A5F7600CDC5D3 /* TrackMapView.swift */; };
 		A3C44F842B5113C4004F18DF /* HealthTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F832B5113C4004F18DF /* HealthTrackingApp.swift */; };
 		A3C44F862B5113C4004F18DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F852B5113C4004F18DF /* ContentView.swift */; };
 		A3C44F882B5113C7004F18DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C44F872B5113C7004F18DF /* Assets.xcassets */; };
@@ -14,13 +21,23 @@
 		A3C44F922B5113E4004F18DF /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F912B5113E4004F18DF /* ActivityCardView.swift */; };
 		A3C44F942B5117BC004F18DF /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F932B5117BC004F18DF /* HealthManager.swift */; };
 		A3C44F962B5119D8004F18DF /* HealthTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F952B5119D8004F18DF /* HealthTabView.swift */; };
-		A3C44F982B511A5F004F18DF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F972B511A5F004F18DF /* RootView.swift */; };
 		A3C44F9E2B511D53004F18DF /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C44F9D2B511D53004F18DF /* ActivityModel.swift */; };
+		A3C661542B9020A10008D1CD /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C661532B9020A10008D1CD /* RouteDetailView.swift */; };
 		A3DF40AC2B578AFA00B505D6 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF40AB2B578AFA00B505D6 /* ChartsView.swift */; };
 		A3DF40AE2B578BBD00B505D6 /* ChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF40AD2B578BBD00B505D6 /* ChartDataModel.swift */; };
+		A3DF40B12B57D09D00B505D6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF40B02B57D09D00B505D6 /* Extensions.swift */; };
+		A3DF40B52B57D90300B505D6 /* ChartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF40B42B57D90300B505D6 /* ChartButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31B025C2BB5BB05005C1669 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		A31B025E2BB5BB2A005C1669 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		A31B02602BB5CFE1005C1669 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A31B02622BB5D009005C1669 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A3284E492B86E5E400A679AC /* RouteTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTrackingView.swift; sourceTree = "<group>"; };
+		A3284E4B2B86E78700A679AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A344C2802B889BB000AC6FF6 /* RouteHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteHistoryView.swift; sourceTree = "<group>"; };
+		A34A8B982B5A5F7600CDC5D3 /* TrackMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMapView.swift; sourceTree = "<group>"; };
 		A3C44F802B5113C4004F18DF /* HealthTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C44F832B5113C4004F18DF /* HealthTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTrackingApp.swift; sourceTree = "<group>"; };
 		A3C44F852B5113C4004F18DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,11 +46,13 @@
 		A3C44F912B5113E4004F18DF /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
 		A3C44F932B5117BC004F18DF /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		A3C44F952B5119D8004F18DF /* HealthTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTabView.swift; sourceTree = "<group>"; };
-		A3C44F972B511A5F004F18DF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		A3C44F992B511BD8004F18DF /* HealthTracking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthTracking.entitlements; sourceTree = "<group>"; };
 		A3C44F9D2B511D53004F18DF /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		A3C661532B9020A10008D1CD /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
 		A3DF40AB2B578AFA00B505D6 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		A3DF40AD2B578BBD00B505D6 /* ChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataModel.swift; sourceTree = "<group>"; };
+		A3DF40B02B57D09D00B505D6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A3DF40B42B57D90300B505D6 /* ChartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +85,10 @@
 		A3C44F822B5113C4004F18DF /* HealthTracking */ = {
 			isa = PBXGroup;
 			children = (
+				A3284E4B2B86E78700A679AC /* Info.plist */,
 				A3C44F992B511BD8004F18DF /* HealthTracking.entitlements */,
 				A3C44F832B5113C4004F18DF /* HealthTrackingApp.swift */,
+				A3DF40AF2B57D08C00B505D6 /* Helpers */,
 				A3C44F9C2B511D46004F18DF /* Model */,
 				A3C44F9B2B511D3A004F18DF /* ViewModel */,
 				A3C44F9A2B511D29004F18DF /* View */,
@@ -89,10 +110,15 @@
 			isa = PBXGroup;
 			children = (
 				A3C44F852B5113C4004F18DF /* ContentView.swift */,
-				A3C44F972B511A5F004F18DF /* RootView.swift */,
 				A3C44F952B5119D8004F18DF /* HealthTabView.swift */,
 				A3C44F912B5113E4004F18DF /* ActivityCardView.swift */,
 				A3DF40AB2B578AFA00B505D6 /* ChartsView.swift */,
+				A3DF40B42B57D90300B505D6 /* ChartButton.swift */,
+				A34A8B982B5A5F7600CDC5D3 /* TrackMapView.swift */,
+				A31B02602BB5CFE1005C1669 /* MapView.swift */,
+				A3284E492B86E5E400A679AC /* RouteTrackingView.swift */,
+				A344C2802B889BB000AC6FF6 /* RouteHistoryView.swift */,
+				A3C661532B9020A10008D1CD /* RouteDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				A3C44F932B5117BC004F18DF /* HealthManager.swift */,
+				A31B02622BB5D009005C1669 /* LocationManager.swift */,
+				A31B025E2BB5BB2A005C1669 /* WorkoutViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -109,9 +137,18 @@
 			isa = PBXGroup;
 			children = (
 				A3C44F9D2B511D53004F18DF /* ActivityModel.swift */,
+				A31B025C2BB5BB05005C1669 /* WorkoutModel.swift */,
 				A3DF40AD2B578BBD00B505D6 /* ChartDataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A3DF40AF2B57D08C00B505D6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF40B02B57D09D00B505D6 /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,13 +221,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A344C2812B889BB000AC6FF6 /* RouteHistoryView.swift in Sources */,
 				A3C44F922B5113E4004F18DF /* ActivityCardView.swift in Sources */,
 				A3C44F862B5113C4004F18DF /* ContentView.swift in Sources */,
 				A3C44F9E2B511D53004F18DF /* ActivityModel.swift in Sources */,
+				A31B025D2BB5BB05005C1669 /* WorkoutModel.swift in Sources */,
+				A3284E4A2B86E5E400A679AC /* RouteTrackingView.swift in Sources */,
+				A3DF40B12B57D09D00B505D6 /* Extensions.swift in Sources */,
 				A3DF40AC2B578AFA00B505D6 /* ChartsView.swift in Sources */,
-				A3C44F982B511A5F004F18DF /* RootView.swift in Sources */,
+				A31B02632BB5D009005C1669 /* LocationManager.swift in Sources */,
+				A31B025F2BB5BB2A005C1669 /* WorkoutViewModel.swift in Sources */,
+				A31B02612BB5CFE1005C1669 /* MapView.swift in Sources */,
+				A3DF40B52B57D90300B505D6 /* ChartButton.swift in Sources */,
 				A3DF40AE2B578BBD00B505D6 /* ChartDataModel.swift in Sources */,
 				A3C44F842B5113C4004F18DF /* HealthTrackingApp.swift in Sources */,
+				A34A8B992B5A5F7600CDC5D3 /* TrackMapView.swift in Sources */,
+				A3C661542B9020A10008D1CD /* RouteDetailView.swift in Sources */,
 				A3C44F962B5119D8004F18DF /* HealthTabView.swift in Sources */,
 				A3C44F942B5117BC004F18DF /* HealthManager.swift in Sources */,
 			);
@@ -330,8 +376,12 @@
 				DEVELOPMENT_TEAM = NU35GM8TLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthTracking/Info.plist;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "To read the health data and show it in the application";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To update the health data and show it in the application";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need permission for access your location to track real-time workout data.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need permission for access your location to track real-time workout data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need permission for access your location to track real-time workout data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -362,8 +412,12 @@
 				DEVELOPMENT_TEAM = NU35GM8TLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthTracking/Info.plist;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "To read the health data and show it in the application";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To update the health data and show it in the application";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need permission for access your location to track real-time workout data.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need permission for access your location to track real-time workout data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need permission for access your location to track real-time workout data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
